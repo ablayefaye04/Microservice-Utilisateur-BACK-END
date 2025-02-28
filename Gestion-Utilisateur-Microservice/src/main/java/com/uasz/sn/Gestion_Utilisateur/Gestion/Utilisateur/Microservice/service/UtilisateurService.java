@@ -1,5 +1,7 @@
 package com.uasz.sn.Gestion_Utilisateur.Gestion.Utilisateur.Microservice.service;
 
+import com.uasz.sn.Gestion_Utilisateur.Gestion.Utilisateur.Microservice.exception.ResourceAlreadyExistException;
+import com.uasz.sn.Gestion_Utilisateur.Gestion.Utilisateur.Microservice.exception.ResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

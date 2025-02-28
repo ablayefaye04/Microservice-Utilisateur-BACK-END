@@ -1,7 +1,6 @@
 package com.uasz.sn.Gestion_Utilisateur.Gestion_Utilisateur.Microservice.service;
-
-import com.uasz.sn.Gestion_Utilisateur.Gestion_Utilisateur.Microservice.models.Utilisateur;
-import com.uasz.sn.Gestion_Utilisateur.Gestion_Utilisateur.Microservice.repository.UtilisateurRepository;
+import com.uasz.sn.Gestion_Utilisateur.Gestion.Utilisateur.Microservice.modele.Utilisateur;
+import com.uasz.sn.Gestion_Utilisateur.Gestion.Utilisateur.Microservice.repository.UtilisateurRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
